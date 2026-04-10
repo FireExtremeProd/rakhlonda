@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(160, 228, 228);
+    margin:0;
+    padding:0;
+}
+div {
+    background-color:rgba(78, 73, 126, 0.75);
+    padding:12px;
+    margin:0px;
+}
+h1 {
+    font-family:Helvetica;
+    text-align:center;
+    height:16px;
+}
+h2 {
+    font-family:Helvetica;
+    text-align:center;
+}
+p {
+    font-family:Helvetica;
+}
