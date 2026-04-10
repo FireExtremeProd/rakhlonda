@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rakhlonda
+        </title>
+    </head>
+    <style>
+        body {
+            background-color:rgb(160, 228, 228);
+            margin:0;
+            padding:0;
+        }
+        div {
+            background-color:rgba(78, 73, 126, 0.75);
+            padding:12px;
+            margin:0px;
+        }
+        h1 {
+            font-family:Helvetica;
+            text-align:center;
+            height:16px;
+        }
+        h2 {
+            font-family:Helvetica;
+            text-align:center;
+        }
+        p {
+            font-family:Helvetica;
+        }
+    </style>
+    <body>
+        <div>
+            <h1 style="font-size:72px;">RAKHLONDA</h1>
+            <p style="text-align:center; font-size:24px; color:rgba(0, 0, 0, 0.75)"><i>The Official NDD Minecraft Server</i></p>
+        </div>
+        <div style="padding:2px; background-color:rgba(96, 85, 197, 0.75); outline:rgb(144, 159, 243) solid 18px">
+            <p style="text-align:center; font-size:30px;">
+                SERVER IP: <b><a id="mainServerIP" onclick="copyText()">rakhlonda.ddns.net</a></b><br>
+                PORTS: <b>Java:25565</b> | <b>Bedrock:19132</b>
+            </p>
+            <p style="text-align:center; font-size:16px;"><i>Click to copy to clipboard!</i></p>
+        </div>
+        <script>
+            function copyText() {        
+                var text = document.getElementById("mainServerIP");
+                
+                navigator.clipboard.writeText(text.textContent);
+
+                alert("Copied!");
+            }
+        </script>
+    </body>
+</html>
